@@ -6,23 +6,23 @@
 
 /* Carousel */
 
-	.carousel {
-		overflow-x: auto;
-	}
+.carousel {
+	overflow-x: auto;
+}
 
 /* Header */
 
-	body.homepage.is-preload #header:after {
-		opacity: 0;
-	}
+body.homepage.is-preload #header:after {
+	opacity: 0;
+}
 
-	body.is-preload #header.alt > * {
-		opacity: 1;
-	}
+body.is-preload #header.alt > * {
+	opacity: 1;
+}
 
-	body.is-preload #header.alt .logo {
-		-moz-transform: none;
-		-webkit-transform: none;
-		-ms-transform: none;
-		transform: none;
-	}
+body.is-preload #header.alt .logo {
+	-moz-transform: none;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+}

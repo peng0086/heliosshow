@@ -8,18 +8,15 @@
 	<head>
 		<title>LJ - word quiz</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> -->
 		<script src="https://kit.fontawesome.com/f067fc2ff4.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="exam.css" />
-		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+		<!-- <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript> -->
 		
 	</head>
 	
 	<body class="homepage is-preload">
-
 		<div id="page-wrapper">
-			
-			
 			<!-- Banner -->
 			<section id="banner">
 				<header>	
@@ -31,24 +28,39 @@
 				</header>
 			</section>
 
-			<!-- Main -->
-			<div class="wrapper style2">
-				<article id="main" class="container special">
-					<div>
-						<h2 id="question"><i class="fa-regular fa-thumbs-up fa-bounce"></i> 
-							<strong> Ready to take the quiz ? </strong><i class="fa-solid fa-thumbs-up fa-bounce"></i>
-							<br>
-						</h2>
-						<p>
-							<div id="options">
-								<i class="fa-solid fa-caret-down fa-fade"></i>
-							</div>
-						</p>
-					</div>
-						<input id="StartButton" type="button" value="開始作答">
-				</article>
-			</div>
+			<!-- Features -->
+			<div class="wrapper style1">
+				<section id="features" class="container special">
+					
+					<h2 id="quiztitle"><i class="fa-regular fa-thumbs-up fa-bounce"></i> 
+						<strong> Ready to take the quiz ? </strong><i class="fa-solid fa-thumbs-up fa-bounce"></i>
+						<br>
+					</h2>
+					<br>
+					<div class="row">
+						
+						<article class="col-4 col-12-mobile special">
+							<h2 id="question"></h2>
+						</article>
 
+						<article class="col-4 col-12-mobile special">
+							<op>
+								<div id="options">
+									<i class="fa-solid fa-caret-down fa-fade"></i>
+								</div>
+								<input id="StartButton" type="button" value="開始作答">
+							</op>
+						</article>
+						<article class="col-4 col-12-mobile special">
+							<p id="answer"></p>
+							<!-- <i class="fa-solid fa-check fa-bounce"></i> -->
+							<!-- <i class="fa-solid fa-xmark fa-flip"></i> -->
+						</article>
+
+					</div>
+				</section>
+			</div>
+			
 			<!-- Footer -->
 			<div id="footer">
 				<div class="container">
@@ -94,10 +106,8 @@
 			</div>
 		</div>
 
-		<!-- Scripts -->	
+		<!-- Scripts -->
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="data.js"></script>
-        <script src="main.js"></script>
 		<script src="../assets/js/jquery.min.js"></script>
 		<script src="../assets/js/jquery.dropotron.min.js"></script>
 		<script src="../assets/js/jquery.scrolly.min.js"></script>
@@ -106,6 +116,8 @@
 		<script src="../assets/js/breakpoints.min.js"></script>
 		<script src="../assets/js/util.js"></script>
 		<script src="../assets/js/main.js"></script>	
+        <script src="data.js"></script>
+        <script src="main.js"></script>
 	</body>
 	
 	

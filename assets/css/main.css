@@ -16,7 +16,7 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
+footer, header, hgroup, menu, nav2, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -26,7 +26,7 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav2, section {
 	display: block;}
 
 body {
@@ -52,7 +52,6 @@ table {
 }
 
 body {
-	-ms-overflow-style: scrollbar;
 	-webkit-text-size-adjust: none;
 }
 
@@ -81,6 +80,10 @@ input, select, textarea {
 
 	*, *:before, *:after {
 		box-sizing: inherit;
+	}
+
+	body {
+		-ms-overflow-style: scrollbar;
 	}
 
 	body {
@@ -1743,9 +1746,9 @@ input, select, textarea {
 
 		}
 
-/* Nav */
+/* Nav2 */
 
-#nav {
+#nav2 {
 	-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 	-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 	-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
@@ -1762,42 +1765,42 @@ input, select, textarea {
 	text-align: center;
 }
 
-	#nav input, #nav select, #nav textarea {
+	#nav2 input, #nav2 select, #nav2 textarea {
 		color: #636363;
 	}	
 
-	#nav strong, #nav b {
+	#nav2 strong, #nav2 b {
 		color: #636363;
 	}
 
-	#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
+	#nav2 h1, #nav2 h2, #nav2 h3, #nav2 h4, #nav2 h5, #nav2 h6 {
 		color: #636363;
 	}
 
-	#nav blockquote {
+	#nav2 blockquote {
 		border-left-color: #dddddd;
 	}
 
-	#nav code {
+	#nav2 code {
 		background: rgba(222, 222, 222, 0.25);
 		border-color: #dddddd;
 	}
 
-	#nav hr {
+	#nav2 hr {
 		border-bottom-color: #dddddd;
 	}
 
-	#nav + #main {
+	#nav2 + #main {
 		padding-top: 4.25em;
 	}
 
-	#nav ul {
+	#nav2 ul {
 		margin: 0;
 		padding: 0;
 		list-style: none;
 	}
 
-		#nav ul li {
+		#nav2 ul li {
 			-moz-transition: margin 0.2s ease;
 			-webkit-transition: margin 0.2s ease;
 			-ms-transition: margin 0.2s ease;
@@ -1808,7 +1811,7 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
-			#nav ul li a {
+			#nav2 ul li a {
 				-moz-transition: font-size 0.2s ease;
 				-webkit-transition: font-size 0.2s ease;
 				-ms-transition: font-size 0.2s ease;
@@ -1822,16 +1825,16 @@ input, select, textarea {
 				box-shadow: inset 0 0 0 1px transparent;
 			}
 
-				#nav ul li a:hover {
+				#nav2 ul li a:hover {
 					background-color: rgba(222, 222, 222, 0.25);
 				}
 
-				#nav ul li a.active {
+				#nav2 ul li a.active {
 					background-color: #ffffff;
 					box-shadow: none;
 				}
 
-	#nav.alt {
+	#nav2.alt {
 		position: fixed;
 		top: 0;
 		padding: 1em 1em;
@@ -1841,29 +1844,29 @@ input, select, textarea {
 		z-index: 10000;
 	}
 
-		#nav.alt ul li {
+		#nav2.alt ul li {
 			margin: 0 0.175em;
 		}
 
-			#nav.alt ul li a {
+			#nav2.alt ul li a {
 				font-size: 0.9em;
 			}
 
 	@media screen and (max-width: 736px) {
 
-		#nav {
+		#nav2 {
 			display: none;
 		}
 
-			#nav + #main {
+			#nav2 + #main {
 				padding-top: 0;
 			}
 
 	}
 
-/* Nav  */
+/* Nav2  */
 
-#nav a {
+#nav2 a {
 	position: relative;
 	display: inline-block;
 	color: #00a5c3;
@@ -1880,15 +1883,15 @@ input, select, textarea {
 	transition: opacity .25s ease-in-out;
 }
 
-	#nav a.icon:before {
+	#nav2 a.icon:before {
 		padding-right: 0;
 	}
 
-	#nav a:before {
+	#nav2 a:before {
 		font-size: 0.8em;
 	}
 
-	#nav a:after {
+	#nav2 a:after {
 		content: '';
 		display: block;
 		position: absolute;
@@ -1904,7 +1907,7 @@ input, select, textarea {
 		transition: border-bottom-width .25s ease-in-out;
 	}
 
-	#nav a span {
+	#nav2 a span {
 		display: block;
 		position: absolute;
 		color: #00a5c3;
@@ -1922,7 +1925,7 @@ input, select, textarea {
 		margin-left: -2.75em;
 	}
 
-		#nav a span:after {
+		#nav2 a span:after {
 			content: '';
 			display: block;
 			position: absolute;
@@ -1934,33 +1937,33 @@ input, select, textarea {
 			border-right: solid 0.6em transparent;
 		}
 
-	#nav + #main {
+	#nav2 + #main {
 		padding-top: 4.25em;
 	}
 
-	#nav a:hover {
+	#nav2 a:hover {
 		opacity: 1.0;
 	}
 
-		#nav a:hover span {
+		#nav2 a:hover span {
 			opacity: 1.0;
 		}
 
-	#nav a.active {
+	#nav2 a.active {
 		opacity: 1.0;
 	}
 
-		#nav a.active:after {
+		#nav2 a.active:after {
 			border-bottom-width: 0.5em;
 		}
 
 @media screen and (max-width: 980px) {
 
-	#nav a span {
+	#nav2 a span {
 		display: none;
 	}
 
-	#nav + #main {
+	#nav2 + #main {
 		padding-top: 0;
 	}
 
@@ -1993,7 +1996,7 @@ input, select, textarea {
 		header > p {
 			display: block;
 			font-size: 1.5em;
-			margin: 1em 0 2em 0;
+			margin: 1em 0 1em 0;
 			line-height: 1.5em;
 			text-align: inherit;
 		}
@@ -2172,6 +2175,11 @@ input, select, textarea {
 
 /* Table */
 
+	.table-wrapper {
+		-webkit-overflow-scrolling: touch;
+		overflow-x: auto;
+	}	
+
 	table {
 		width: 100%;
 	}
@@ -2329,18 +2337,91 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
+		background: #ffffff;
 		margin: 0 0 2em 0;
 		padding: 3em 0 3em 0;
 	}
 
-		.wrapper.style2 {
+	.wrapper.top{
+		background: #fff;
+		text-align: center;
+		margin: 0 0 2em 0;
+		padding: 10em 0 3em 0;
+	}
+
+	.wrapper.top canvas{
+		border: 1px solid black;
+	}
+
+		.wrapper.style1 {
 			padding: 2em 0 3em 0;
 		}
 
+			.wrapper.style2 p {
+				font-size: large;
+				font-weight: 700;
+				margin: -1.5em 0 1em 0;
+			}
+
+			.wrapper.style2 progress {
+				width: 200px;
+				height: 20px;
+
+			}
+
+			.wrapper.style2 #plan span {
+				color: #000000;
+				font-weight: 700;
+				line-height: 2em;
+			}
+
+			.wrapper.style2 #newplan span {
+				color: #000000;
+				font-weight: 700;
+				line-height: 2em;
+			}
+
+			.wrapper.style2 #plan input[type='checkbox'] {
+				background-color: initial;
+				cursor: default;
+				appearance: auto;
+				box-sizing: border-box;
+				margin: 3px 3px 3px 4px;
+				padding: initial;
+				border: initial; 
+			}
+
+			.wrapper.style2 #newplan input[type='checkbox'] {
+				background-color: initial;
+				cursor: default;
+				appearance: auto;
+				box-sizing: border-box;
+				margin: 3px 3px 3px 4px;
+				padding: initial;
+				border: initial; 
+			}
+
+			.wrapper.style2 #plan input[type=checkbox]:checked + span {
+				text-decoration: line-through;
+				color: gray;
+			}
+
+			.wrapper.style2 #newplan input[type=checkbox]:checked + span {
+				text-decoration: line-through;
+				color: gray;
+			}
+		
+				.wrapper.style3 p {
+					margin: 1em 0 -1em 0;
+				}
+
+				.wrapper.style3 footer {
+					margin: 2.5em 0 0 0;
+				}
+
 	#wrapper {
-		width: 100%;
-		max-width: calc(100%);
+		/* width: 100%;
+		max-width: calc(100%); */
 		margin: 0 auto;
 	}
 
@@ -2437,7 +2518,6 @@ input, select, textarea {
 	body.homepage #header {
 		height: 100vh;
 		min-height: 40em;
-		display: block;
 	}
 
 		body.homepage #header h1 {
@@ -2468,6 +2548,10 @@ input, select, textarea {
 		opacity: 1;
 	}
 
+	/* body.homepage #nav {
+		display: block;
+	} */
+
 
 
 /* Banner */
@@ -2475,7 +2559,7 @@ input, select, textarea {
 	#banner {
 		background: #fff;
 		text-align: center;
-		padding: 5em 0 5em 0;
+		padding: 3em 0 3em 0;
 		margin-bottom: 0;
 	}
 

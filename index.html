@@ -28,24 +28,29 @@
 						<p>111 YZU CSE Web Practices</p>
 					</header>
 					<footer>
-						<a href="#nav" class="button circled scrolly">Start</a>
+						<a href="#banner" class="button circled scrolly">Start</a>
 						<i ></i>
 					</footer>
 				</div>
 			</div>
 
-		</div>
+			<!-- nav2 -->
+			<nav2 id="nav2">
+				<a href="#header" class="icon solid fa-home"><span>Home</span></a>
+				<a href="#banner" class="icon brands fa-youtube"><span>Youtube</span></a>
+				<a href="#exam" class="icon solid fa-question"><span>Exam</span></a>
+				<a href="#todolist" class="icon solid fa-calendar"><span>Calendar</span></a>
+				<a href="#map" class="icon solid fa-map-location-dot"><span>Map</span></a>
+				<!-- <a href="#" class="icon brands fa-twitter"><span>Twitter</span></a> -->
+			</nav2>
 
-		<nav id="nav">
-			<a href="#header" class="icon solid fa-home"><span>Home</span></a>
-			<a href="#banner" class="icon brands fa-youtube"><span>Youtube</span></a>
-			<a href="#main" class="icon solid fa-question"><span>Exam</span></a>
-			<a href="#" class="icon solid fa-calendar"><span>Calendar</span></a>
-			<a href="https://reurl.cc/65Dedd" class="icon solid fa-map-location-dot"><span>Map</span></a>
-			<!-- <a href="#" class="icon brands fa-twitter"><span>Twitter</span></a> -->
-		</nav>
+			<!-- Main joke -->
+			<div class="wrapper top">
+				<article id="main" class="container special">
+					<canvas id="myCanvas"width="480"height="100"></canvas>
+				</article>
+			</div>
 
-		<div id="page-wrapper">
 			<!-- Banner -->
 			<section id="banner">
 				<header>	
@@ -134,13 +139,12 @@
 				</div>
 			</section>
 
-			<!-- Main -->
-			<div class="wrapper style2">
+			<!-- Main exam-->
+			<div class="wrapper style1" id="exam">
 				<article id="main" class="container special">
-					<!--<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>-->
 					<header>
 						<br>
-						<h2>English word exam</h2>
+						<h2>English Word Exam</h2>
 						<p>
 							Provide a variety of topics, Chinese to English or English to Chinese.
 						</p>
@@ -155,8 +159,67 @@
 				</article>
 			</div>
 
+			<!-- Main location-->
+			<div class="wrapper style2" id="todolist">
+				<article id="main" class="container special">
+					<header>
+						<h2>Daily English Practice Plan</h2>
+						<br>
+
+						<div id="plan">
+							<input type="checkbox"><span>觀看 2 部 TED's Youtube</span><br>
+							<input type="checkbox"><span>完成 20 題英語單字測驗</span><br>
+						</div>
+
+					</header>
+						<br>
+						<p>progress : <progress value="0"></progress></p>
+					<footer>
+						新增活動：<input type="text" id="addnewplan" /><br><br>
+						<input type="button" class="btnclass" value="新增">
+					</footer>
+				</article>
+			</div>
+
+			<!-- Main todolist-->
+			<!-- <div class="wrapper style3" id="map">
+				<article id="main" class="container special">
+					<header>
+						<h2>Location Map</h2>
+						<br>
+
+						<div id="plan">
+							<input type="checkbox"><span>觀看 2 部 TED's Youtube</span><br>
+							<input type="checkbox"><span>完成 20 題英語單字測驗</span><br>
+						</div>
+
+					</header>
+						<br>
+						<p>progress : <progress value="0"></progress></p>
+					<footer>
+						新增活動：<input type="text" id="addnewplan" /><br><br>
+						<input type="button" class="btnclass" value="新增">
+					</footer>
+				</article>
+			</div> -->
+
+			<!-- Main joke -->
+			<div class="wrapper style3">
+				<article id="main" class="container special">
+					<header>
+						<h2>English joke :</h2>
+						<br>
+						<p id="showjokeData"></p>
+						<br>
+					</header>
+					<footer>
+						<input id="StartButton" type="button" value="來看看笑話!!">
+					</footer>
+				</article>
+			</div>
+
 			<!-- Features -->
-			<div class="wrapper style1">
+			<!-- <div class="wrapper style6">
 				<section id="features" class="container special">
 					<header>
 						<h2>Other achievements</h2>
@@ -199,7 +262,7 @@
 								<h3><a href="#">Sed quis rhoncus placerat</a></h3>
 							</header>
 						</article>
-						<!--<article class="col-4 col-12-mobile special">
+						 <article class="col-4 col-12-mobile special">
 							<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
 							<header>
 								<h3><a href="#">Magna laoreet et aliquam</a></h3>
@@ -208,10 +271,10 @@
 								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
 								porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
 							</p>
-						</article>-->
+						</article>
 					</div>
 				</section>
-			</div>
+			</div> -->
 
 			<!-- Footer -->
 			<div id="footer">
@@ -338,8 +401,8 @@
 									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-									<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-									<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
+									<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+									<!-- <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li> -->
 								</ul>
 							</section>
 
@@ -374,5 +437,18 @@
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
 
+		<!-- todolist Scripts -->
+		<script src="//unpkg.com/jquery"></script>
+        <script src="lab_todolist/todolistmain.js"></script>
+
+		<!-- location Scripts -->
+        <!-- <script src="lab_location/locationmain.js"></script> -->
+
+		<!-- Joke Scripts -->
+		<script src="lab_joke/jokemain.js"></script>
+
+		<!-- showdate Scripts -->
+		<script src="lab_showdate/showdatemain.js"></script>
+		
 	</body>
 </html>

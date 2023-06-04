@@ -12,9 +12,9 @@
 
 /* Header */
 
-body.homepage.is-preload #header:after {
+/* body.homepage.is-preload #header:after {
 	opacity: 0;
-}
+} */
 
 body.is-preload #header.alt > * {
 	opacity: 1;

@@ -28,3 +28,16 @@
 			}
 		}
 	}
+
+	
+		body.is-preload & {
+			&.alt {
+				> * {
+					opacity: 1;
+				}
+
+				.logo {
+					@include vendor('transform', 'none');
+				}
+			}
+		}
